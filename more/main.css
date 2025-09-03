@@ -1,0 +1,1606 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    height: 4900px;
+}
+
+#heading {
+    position: absolute;
+    font-size: 180%;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    top: 15%;
+    left: 10%;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
+    font-weight: 550;
+}
+
+#headingblock {
+    position: absolute;
+    top: 13%;
+    left: 6%;
+    background-color: rgb(209, 150, 63);
+    height: 35%;
+    width: 85%;
+    border-radius: 20px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+#cta-button {
+    position: absolute;
+    top: 38%;
+    left: 28%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s ease;
+}
+
+#cta-button:hover {
+    scale: 1.05;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#cta-button:active {
+    scale: 1.05;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#headingimage {
+    position: absolute;
+    top: 21%;
+    left: 77%;
+    height: 10%;
+    width: 5.5%;
+    height: 10%;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(5);
+}
+
+#subheading {
+    position: absolute;
+    font-size: 170%;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    top: 21%;
+    left: 20%;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
+    font-weight: 510;
+}
+
+#headingline {
+    position: absolute;
+    top: 33%;
+    left: 11%;
+    width: 44%;
+    height: 3px;
+    background-color: rgb(46, 46, 46);
+    border-color: rgb(46, 46, 46);
+    border-radius: 20px;
+}
+
+#logo {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    color:rgb(46, 46, 46);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 650;
+    font-size: 170%;
+}
+
+#logodecor {
+    position: absolute;
+    top: 2.5%;
+    left: 11%;
+    width: 1.5%;
+    height: 3%;
+    background-color: rgb(209, 150, 63);
+    z-index: -1;
+    border-radius: 20px;
+}
+
+#about-us {
+    position: absolute;
+    font-size: 140%;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    top: 1%;
+    left: 30%;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
+    font-weight: 510;
+    border-right: 1px solid rgb(192, 192, 192);
+    width: 10%;
+    cursor: pointer;
+}
+
+#about-us:hover {
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 1px rgb(116, 116, 116);
+}
+
+#contacts {
+    position: absolute;
+    font-size: 140%;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    top: 1%;
+    left: 42%;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
+    font-weight: 510;
+    border-right: 1px solid rgb(192, 192, 192);
+    width: 10%;
+    cursor: pointer;
+}
+
+#contacts:hover {
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 1px rgb(116, 116, 116);
+}
+
+#certificates {
+    position: absolute;
+    font-size: 140%;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    top: 1%;
+    left: 54.5%;
+    font-family: "Montserrat", sans-serif;
+    padding: 1%;
+    font-weight: 510;
+    width: 10%;
+    cursor: pointer;
+}
+
+#certificates:hover {
+    color:rgb(0, 0, 0);
+    text-shadow: 0 0 1px rgb(116, 116, 116);
+}
+
+#block1 {
+    position: absolute;
+    display: flex;
+    top: 70%;
+    left: 7%;
+    height: 8%;
+    width: 23%;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(209, 150, 63);
+    background-color: rgb(46, 46, 46);
+    border: 3px dashed rgb(209, 150, 63);
+    transition: all 0.5s ease;
+}
+
+#block1:hover {
+    color: rgb(46, 46, 46);
+    background-color: rgb(209, 150, 63);
+    border: 3px dashed rgb(46, 46, 46);
+}
+
+#block2 {
+    position: absolute;
+    display: flex;
+    top: 70%;
+    left: 36%;
+    height: 8%;
+    width: 23%;
+    border-radius: 10px;
+    color: rgb(209, 150, 63);
+    background-color: rgb(46, 46, 46);
+    border: 3px dashed rgb(209, 150, 63);
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+#block2:hover {
+    color: rgb(46, 46, 46);
+    background-color: rgb(209, 150, 63);
+    border: 3px dashed rgb(46, 46, 46);
+}
+
+#block3 {
+    position: absolute;
+    display: flex;
+    top: 70%;
+    left: 65%;
+    height: 8%;
+    width: 25%;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(209, 150, 63);
+    background-color: rgb(46, 46, 46);
+    border: 3px dashed rgb(209, 150, 63);
+    transition: all 0.5s ease;
+}
+
+#block3:hover {
+    color: rgb(46, 46, 46);
+    background-color: rgb(209, 150, 63);
+    border: 3px dashed rgb(46, 46, 46);
+}
+
+#line1 {
+    position: absolute;
+    top: 60%;
+    width: 99.9%;
+    background-color: rgb(46, 46, 46);
+}
+
+#line2 {
+    position: absolute;
+    top: 175%;
+    width: 99.9%;
+    background-color: rgb(46, 46, 46);
+}
+
+#line3 {
+    position: absolute;
+    top: 270%;
+    width: 99.9%;
+    background-color: rgb(46, 46, 46);
+}
+
+#listblock {
+    top: 95%;
+    left: 32%;
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    background-color: rgb(209, 150, 63);
+    border-radius: 20px;
+    border: 2px solid rgb(46, 46, 46);
+}
+
+#benefits-list:hover {
+    list-style-type: disc;
+}
+
+#img1 {
+    position: absolute;
+    top: 95%;
+    left: 28%;
+    width: 20%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#benefits-list {
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    color:rgb(46, 46, 46);
+    font-family: "Inter", sans-serif;
+    font-size: 170%;
+    font-weight: 500;
+    cursor: default;
+}
+
+#text1 {
+    position: absolute;
+    top: 150%;
+    left: 6%;
+    color: rgb(46, 46, 46);
+    font-family: "Montserrat", sans-serif;
+    font-size: 150%;
+    font-weight: 500;
+    border-radius: 15px;
+    width: 60%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed rgb(46, 46, 46);
+}
+
+#text2 {
+    position: absolute;
+    top: 190%;
+    left: 6%;
+    color: rgb(46, 46, 46);
+    font-family: "Montserrat", sans-serif;
+    font-size: 150%;
+    font-weight: 650;
+}
+
+#reviews1 {
+    position: absolute;
+    top: 200%;
+    left: 6%;
+    width: 18%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    border: 3px solid rgb(43, 43, 43);
+    transition: all 0.3s ease;
+}
+
+#reviewimg1 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#reviewtext1 {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+#reviewauthor1 {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviewrate1 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviews1:hover {
+    scale: 1.1;
+}
+
+#reviews2 {
+    position: absolute;
+    top: 200%;
+    left: 36%;
+    width: 18%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    border: 3px solid rgb(43, 43, 43);
+    transition: all 0.3s ease;
+}
+
+#reviewimg2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#reviewtext2 {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+#reviewauthor2 {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviewrate2 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviews2:hover {
+    scale: 1.1;
+}
+
+#reviews3 {
+    position: absolute;
+    top: 200%;
+    left: 67%;
+    width: 18%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    border: 3px solid rgb(43, 43, 43);
+    transition: all 0.3s ease;
+}
+
+#reviewimg3 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#reviewtext3 {
+    position: absolute;
+    top: 75%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+#reviewauthor3 {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviewrate3 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    width: 96%;
+    height: 30%;
+    font-family: "Inter", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(228, 196, 92);
+    box-sizing: border-box;
+}
+
+#reviews3:hover {
+    scale: 1.1;
+}
+
+#captureform {
+    position: absolute;
+    top: 280%;
+    left: 6%;
+    width: 86%;
+    height: 40%;
+    font-family: "Inter", sans-serif;
+    font-size: 110%;
+    font-weight: 550;
+    background-color: rgb(46, 46, 46);
+    border-radius: 20px;
+    border: 3px solid rgb(8, 8, 8);
+}
+
+#name {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 60%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(46, 46, 46);
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid rgb(26, 26, 26);
+}
+
+#email {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 60%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(46, 46, 46);
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid rgb(26, 26, 26);
+}
+
+#send {
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    width: 30%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 120%;
+    font-weight: 550;
+    color: rgb(46, 46, 46);
+    background-color: rgb(209, 150, 63);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px dashed rgb(26, 26, 26);
+    transition: all 0.3s ease;
+}
+
+#send:hover {
+    background-color: rgb(209, 150, 63);
+    scale: 1.05;
+}
+
+#serverimg {
+    position: absolute;
+    top: 285%;
+    left: 10%;
+    width: 15%;
+    height: 30%;
+    object-fit: cover;
+}
+
+#saleblock {
+    position: absolute;
+    top: 340%;
+    left: 6%;
+    width: 45%;
+    height: 50%;
+    font-family: "Inter", sans-serif;
+    font-size: 110%;
+    font-weight: 550;
+    background-color: rgb(209, 150, 63);
+    border-radius: 20px;
+    border: 3px solid rgb(46, 46, 46);
+}
+
+#saleimg {
+    position: absolute;
+    top: 338.5%;
+    left: 5.9%;
+    width: 15%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+#saletext {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 60%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 210%;
+    font-weight: 650;
+    color: rgb(46, 46, 46);
+}
+
+#salecost {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 60%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 170%;
+    font-weight: 650;
+    color: rgb(46, 46, 46);
+}
+
+#saleline {
+    position: absolute;
+    top: 33.5%;
+    left: 28%;
+    width: 18%;
+    height: 2px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 20px;
+}
+
+#saleline2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 70%;
+    height: 1%;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 20px;
+}
+
+#salerealcost {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 60%;
+    height: 10%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 170%;
+    font-weight: 650;
+    color: rgb(46, 46, 46);
+}
+
+#salebutton {
+    position: absolute;
+    top: 65%;
+    left: 32%;
+    width: 30%;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s ease;
+    border: 1px solid rgb(26, 26, 26); 
+}
+
+#salebutton:hover {
+    scale: 1.05;
+    text-shadow: 0 0 10px white;
+}
+
+#faqtext {
+    position: absolute;
+    top: 335%;
+    left: 70%;
+    color: rgb(46, 46, 46);
+    font-family: "Montserrat", sans-serif;
+    font-size: 210%;
+
+}
+
+#faq1 {
+    position: absolute;
+    display: flex;
+    top: 345%;
+    left: 58%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 30%;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq1answer {
+    position: absolute;
+    display: flex;
+    top: 355%;
+    left: 53%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 40%;
+    height: 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#faq2 {
+    position: absolute;
+    display: flex;
+    top: 375%;
+    left: 58%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 30%;
+    height: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+#faq2answer {
+    position: absolute;
+    display: flex;
+    top: 385%;
+    left: 52%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 43%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+}
+
+#faq3 {
+    position: absolute;
+    display: flex;
+    top: 418%;
+    left: 58%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+
+#faq3answer {
+    position: absolute;
+    display: flex;
+    top: 431%;
+    left: 53%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 40%;
+    height: 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#faq4 {
+    position: absolute;
+    display: flex;
+    top: 450%;
+    left: 58%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+}
+
+#faq4answer {
+    position: absolute;
+    display: flex;
+    top: 463%;
+    left: 53%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 180%;
+    border: 2px dashed rgb(46, 46, 46);
+    width: 40%;
+    height: 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#faqline1 {
+    position: absolute;
+    top: 372%;
+    width: 40%;
+    left: 53%;
+    border: none;
+    height: 2px;
+    background-color: rgb(209, 150, 63);
+    border-radius: 5px;
+}
+
+#faqline2 {
+    position: absolute;
+    top: 414%;
+    width: 40%;
+    left: 53%;
+    border: none;
+    height: 2px;
+    background-color: rgb(209, 150, 63);
+    border-radius: 5px;
+}
+
+#faqline3 {
+    position: absolute;
+    top: 447%;
+    width: 40%;
+    left: 53%;
+    border: none;
+    height: 2px;
+    background-color: rgb(209, 150, 63);
+    border-radius: 5px;
+}
+
+#footerblock {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 500%;
+    background-color: rgb(46, 46, 46);
+}
+
+#footertext {
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    color: white;
+    font-family: "montserrat", sans-serif;
+}
+
+#footercontacts {
+    position: absolute;
+    top: 7.5%;
+    left: 5%;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 120%;
+}
+
+#footercontactsul {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 90%;
+    border: none;
+    cursor: pointer;
+    list-style: none;
+}
+
+#li1:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#li2:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#li3:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#li4:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#whatsappicon {
+    position: absolute;
+    width: 2%;
+    height: auto;
+    top: 20%;
+    left: 47%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#whatsappicon:hover {
+    scale: 1.1;
+}
+
+#telegramicon {
+    position: absolute;
+    width: 2.6%;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#telegramicon:hover {
+    scale: 1.1;
+}
+
+#instagramicon {
+    position: absolute;
+    width: 3%;
+    height: auto;
+    top: 20%;
+    left: 53.3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#instagramicon:hover {
+    scale: 1.1;
+}
+
+#more {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+}
+
+#m1:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#m2:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#m3:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#m4:hover {
+    text-shadow: 0 0 5px white;
+}
+
+#decorate {
+    position: absolute;
+    top: 410%;
+    left: 12%;
+    width: 30%;
+    height: 60%;
+}
+
+#decor1 {
+    width: 70%;
+    height: 70%;
+    left: 7%;
+    scale: 120%;
+    background: linear-gradient(to right, rgb(226, 139, 57), rgb(228, 108, 28));
+    border-radius: 74% 26% 20% 80% / 20% 64% 36% 80% ;
+    z-index: -1;
+}
+
+#decor2 {
+    position: absolute;
+    width: 78%;
+    left: -6%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+#decor3 {
+    position: absolute;
+    top: 470%;
+    width: 20%;
+    height: 40%;
+    left: 0%;
+    background: linear-gradient(to right, rgb(226, 139, 57), rgb(228, 108, 28));
+    border-radius: 30% 70% 20% 80% / 81% 64% 36% 19% ;
+    z-index: -1;
+}
+
+#servers {
+    position: absolute;
+    scale: 0.5;
+    top: -40%;
+    left: -10%;
+}
+
+@media (max-width: 1360px) {
+    body {
+        height: 4500px;
+    }
+    #about-us {
+        width: 15%;
+        left: 25%;
+    }
+
+    #headingimage {
+        width: 6.5%;
+    }
+
+    #block3 {
+        width: 30%;
+    }
+
+    #text1 {
+        left: 4%;
+        width: 80%;
+    }
+
+    #reviews1 {
+        width: 20%;
+    }
+
+    #reviews2 {
+        width: 20%;
+    }
+
+    #reviews3 {
+        width: 20%;
+    }
+
+    #saleimg {
+        width: 20%;
+        scale: 95%;
+        left: 5.4%;
+        top: 337.5%;
+    }
+
+    #salerealcost {
+        left: 60%;
+    }
+
+    #salebutton {
+        left: 40%;
+    }
+
+    #faq1 {
+        padding: 2px;
+        font-size: 130%;
+    }
+    
+    #faq1answer {
+        font-size: 130%;
+    }
+
+    #faq2 {
+        padding: 2px;
+        font-size: 130%;
+    }
+    
+    #faq2answer {
+        font-size: 130%;
+    }
+
+    #faq3 {
+        padding: 2px;
+        font-size: 130%;
+    }
+    
+    #faq3answer {
+        font-size: 130%;
+        padding: 1%;
+    }
+
+    #faq4 {
+        top: 453%;
+        padding: 2px;
+        font-size: 130%;
+    }
+    
+    #faq4answer {
+        top: 466%;
+        font-size: 130%;
+    }
+
+    #faqline3 {
+        top: 450%;
+    }
+
+    #servers {
+        left: -30%;
+        top: -50%;
+    }
+
+    #footertext {
+        left: 44%;
+    }
+}
+
+@media (max-width: 1080px) {
+    body {
+        height: 4400px;
+    }
+
+    #text1 {
+        font-size: 120%;
+    }
+
+    #reviews1 {
+        width: 26%;
+    }
+
+    #reviews2 {
+        width: 26%;
+    }
+
+    #reviews3 {
+        width: 26%;
+    }
+
+    #listblock {
+        font-size: 85%;
+    }
+
+    #heading {
+        font-size: 150%;
+    }
+
+    #subheading {
+        font-size: 140%;
+    }
+
+    #logodecor {
+        height: 2%;
+        left: 13%;
+    }
+
+    #about-us {
+        font-size: 120%;
+    }
+
+    #contacts {
+        font-size: 120%;
+    }
+
+    #certificates {
+        font-size: 120%;
+    }
+
+    #block1 {
+        font-size: 100%;
+    }
+
+    #block2 {
+        font-size: 100%;
+    }
+
+    #block3 {
+        font-size: 100%;
+    }
+
+    #logo {
+        top: 2.5%;
+        font-size: 120%;
+    }
+
+    #serverimg {
+        width: 25%;
+        height: 31%;
+    }
+
+    #salebutton {
+        font-size: 80%;
+        width: 35%;
+    }
+
+    #send {
+        font-size: 100%;
+    }
+
+    #servers {
+        scale: 40%;
+        left: -60%;
+    }
+
+    #decor2 {
+        scale: 140%;
+    }
+
+    #footerblock {
+        height: 30%;
+    }
+
+    #headingimage {
+        height: 8%;
+    }
+}
+
+@media (max-width: 510px) {
+    body {
+        height: 3800px;
+    }
+
+    #logo {
+        font-size: 100%;
+    }
+
+    #logodecor {
+        height: 1%;
+        left: 21.5%;
+        top: 2.5%;
+    }
+
+    #heading {
+        font-size: 90%;
+        left: 4%;
+        width: 100%;
+    }
+
+    #headingblock {
+        height: 20%;
+        left: 2%;
+        width: 122%;
+    }
+
+    #subheading {
+        font-size: 90%;
+        top: 18%;
+        left: 17%;
+    }
+
+    #cta-button {
+        top: 27%;
+        scale: 70%;
+        left: 22%;
+    }
+
+    #headingline {
+        top: 24%;
+        width: 60%;
+    }
+
+    #headingimage {
+        height: 4%;
+        width: 8%;
+        left: 100%;
+        scale: 1.1;
+    }
+
+    #about-us {
+        font-size: 90%;
+        top: 2%;
+        width: 20%;
+    }
+
+    #contacts {
+        display: flex;
+        font-size: 90%;
+        top: 2%;
+        width: 20%;
+        left: 50%;
+        padding-right: 2px;
+    }
+
+    #certificates {
+        font-size: 90%;
+        top: 2%;
+        width: 20%;
+        left: 77%;
+    }
+
+    #cta-button:hover {
+        scale: 0.8;
+    }
+
+    #block1 {
+        left: 2%;
+        width: 26%;
+        height: 5%;
+        font-size: 70%;
+        list-style: none;
+        text-align: center;
+    }
+
+    #block2 {
+        left: 50%;
+        width: 26%;
+        height: 5%;
+        font-size: 70%;
+        list-style: none;
+        text-align: center;
+    }
+
+    #block3 {
+        left: 97%;
+        width: 26%;
+        height: 5%;
+        font-size: 70%;
+        list-style: none;
+        text-align: center;
+    }
+    
+    #block1, #block2, #block3 {
+        top: 50%;
+    }
+
+    #line1 {
+        top: 40%;
+        width: 126%;
+    }
+
+    #listblock {
+        top: 70%;
+        left: 30%;
+        width: 90%;
+        font-size: 70%;
+    }
+
+    #img1 {
+        width: 45%;
+        height: 19%;
+        top: 75%;
+        left: 10%;
+    }
+
+    #text1 {
+        top: 120%;
+        font-size: 80%;
+        height: 4%;
+        width: 80%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #line2 {
+        top: 135%;
+        width: 126%;
+    }
+
+    #text2 {
+        top: 145%;
+        font-size: 110%;
+    }
+
+    #reviews1 {
+        top: 155%;
+        height: 22%;
+        font-size: 50%;
+        left: 3%;
+        width: 35%;
+    }
+
+    #reviews2 {
+        top: 155%;
+        height: 22%;
+        font-size: 50%;
+        left: 42%;
+        width: 35%;
+    } 
+
+    #reviews3 {
+        top: 155%;
+        height: 22%;
+        font-size: 48%;
+        left: 81%;
+        width: 35%;
+    } 
+
+    #line3 {
+        top: 190%;
+        width: 126%;
+    }
+
+    #captureform {
+        top: 200%;
+        left: 2%;
+        width: 120%;
+        height: 20%;
+        font-size: 80%;
+    }
+
+    #send {
+        width: 45%;
+        left: 44%;
+    }
+
+    #serverimg {
+        top: 204%;
+        height: 13.5%;
+        width: 27.5%
+    }
+
+    #saleblock {
+        top: 240%;
+        left: 2%;
+        height: 30%;
+        width: 55%;
+        font-size: 50%;
+    }
+
+    #saleimg {
+        left: -1%;
+        top: 237.5%; 
+        width: 30%;   
+        height: 20%;
+        scale: 0.8;  
+    }
+
+    #salebutton {
+        width: 50%;
+        left: 25%;
+    }
+
+    #faqtext {
+        top: 237%;
+        font-size: 120%;
+        left: 85%;
+    }
+
+    #faq1 {
+        top: 241%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq1answer {
+        top: 250%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq2 {
+        top: 268%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+    #faq2answer {
+        top: 277%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq3 {
+        top: 308%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq3answer {
+        top: 320.5%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq4 {
+        top: 340%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faq4answer {
+        top: 352.5%;
+        font-size: 90%;
+        left: 65%;
+        width: 50%;
+    }
+
+    #faqline1 {
+        top: 266%;
+        left: 70%;
+    }
+
+    #faqline2 {
+        top: 305.5%;
+        left: 70%;
+    }
+
+    #faqline3 {
+        top: 337.5%;
+        left: 70%;
+    }
+
+    #decor1 {
+        position: absolute;
+        top: -200%;
+        height: 30%;
+        width: 100%;
+    }
+
+    #decor2 {
+        position: absolute;
+        top: -200%;
+        height: 25%;
+        width: 90%;
+    }
+    
+    #footerblock {
+        width: 127%;
+    }
+
+    #more {
+        left: 75%;
+    }
+
+    #footertext {
+        left: 38%;
+    }
+
+    #whatsappicon {
+        scale: 400%;
+        left: 40%;
+    }
+
+    #telegramicon {
+        scale: 400%;
+        left: 50%;
+    }
+
+    #instagramicon {
+        scale: 400%; 
+        left: 61%;
+    }
+
+    #whatsapp:hover, #telegram:hover, #instagram:hover {
+        scale: 450%;
+    }
+
+    #footerblock {
+        top: 400%;
+    }
+
+    #decor3 {
+        top: 370%;
+        width: 80%;
+    }
+
+    #servers {
+        top: -50%;
+        left: -10%;
+    }
+}
